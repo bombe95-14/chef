@@ -1,0 +1,40 @@
+#about{
+    display: flex;
+    justify-content: space-around;
+     align-items: center;
+    color: white;
+    font-size: 15px;
+}
+    
+
+#left, #right{
+    width: 30%;
+}
+
+#about h1{
+    color:peru;
+    font-size: 25px; 
+    margin-bottom: 20px;
+}
+
+#right, #left{
+    display: grid; 
+    -ms-grid-column-span: 20px;
+    margin: 0 10px;
+}
+
+#right div, #left div{
+    margin-top: 30px;
+    
+}
+
+#right img{
+    position: relative;
+}
+
+#left img{
+transform: rotate(180deg);
+float: left;
+position: relative;
+right: -355px;
+}
