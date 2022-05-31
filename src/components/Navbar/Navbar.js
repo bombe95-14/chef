@@ -15,14 +15,15 @@ const [toggle, setToggle] = React.useState(false)
     <div className="nav">
      <img src={image} alt="" />
       <ul id='ul1'>
-           <li><a href="/home"> HOME </a></li>
-           <li><a href="/about"> ABOUT </a></li>
-           <li><a href="/page"> MENU </a></li>
-           <li><a href="/page"> AWARDS </a></li>
-           <li><a href="/contact"> CONTACT </a></li>
-           <li><a href="/blog"> BLOG </a></li>
-           <li><a href="/land"> LANDING </a></li>
+      <li><span> HOME </span></li>
+      <li><span > ABOUT </span></li>
+      <li><span> MENU </span></li>
+      <li><span > AWARDS </span></li>
+      <li><span > CONTACT </span></li>
+      <li><span > BLOG </span></li>
+      <li><span > LANDING </span></li>
       </ul>
+
       <ul id='ul2'>
       <li><span > Log In / Registration </span></li>
       <li><span > BOOK TABLE </span></li>
