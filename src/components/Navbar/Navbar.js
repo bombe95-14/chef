@@ -34,13 +34,13 @@ const [toggle, setToggle] = React.useState(false)
                <div className='kind_de_mini'>
                     <MdOutlineRestaurantMenu color='white' fontSize={35} onClick={ ()=>{ setToggle(false) } } />
                     <ul>
-                         <li><a href="/home"> HOME </a></li>
-                         <li><a href="/about"> ABOUT </a></li>
-                         <li><a href="/page"> MENU </a></li>
-                         <li><a href="/page"> AWARDS </a></li>
-                         <li><a href="/contact"> CONTACT </a></li>
-                         <li><a href="/blog"> BLOG </a></li>
-                         <li><a href="/land"> LANDING </a></li>
+                         <li><a> HOME </a></li>
+                         <li><a > ABOUT </a></li>
+                         <li><a> MENU </a></li>
+                         <li><a > AWARDS </a></li>
+                         <li><a > CONTACT </a></li>
+                         <li><a > BLOG </a></li>
+                         <li><a > LANDING </a></li>
                     </ul>
                </div>
                )}
