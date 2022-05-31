@@ -24,8 +24,8 @@ const [toggle, setToggle] = React.useState(false)
            <li><a href="/land"> LANDING </a></li>
       </ul>
       <ul id='ul2'>
-      <li><a href=""> Log In / Registration </a></li>
-      <li><a href=""> BOOK TABLE </a></li>
+      <li><span > Log In / Registration </span></li>
+      <li><span > BOOK TABLE </span></li>
       </ul>
           
             <div className='mini'>
